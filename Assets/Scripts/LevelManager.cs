@@ -15,7 +15,7 @@ public class LevelManager : MonoBehaviour
     {
         Debug.Log("Quit requested");
         /*  - Caveats for Application.Quit()
-            - works great if building for PC and Console
+            - gs works great if building for PC and Console
             - does not work on web build
             - application should not quit itself on mobile
         */
